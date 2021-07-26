@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\Users\jeong\Documents\Github\cpp_practice\playground\main.cpp(53,25): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  playground.vcxproj -> C:\Users\jeong\Documents\Github\cpp_practice\Debug\playground.exe
