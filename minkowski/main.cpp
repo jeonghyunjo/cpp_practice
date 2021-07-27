@@ -30,12 +30,13 @@ vector<vector<int> > delete_duplicate(vector<vector<int> > C)
 
 // ***TODO: Compute the Minkowski Sum of two vectors***//
 vector<vector<int> > minkowski_sum(vector<vector<int> > A, vector<vector<int> > B)
-{
-
-
-
-
-
+{   
+    for (int i = 0; i < A.size(); ++i) {
+        for (int j = 0; j < A[0].size(); ++j) {
+            cout << A[i][j] << "  ";
+        }
+        cout << endl;
+    }
 
 
     C = delete_duplicate(C);
@@ -44,8 +45,11 @@ vector<vector<int> > minkowski_sum(vector<vector<int> > A, vector<vector<int> > 
 
 int main()
 {
-    // ***TODO: Define the coordinates of triangle A and B using 2D vectors*** //
-
+    // Define the coordinates of triangle A and B using 2D vectors
+    vector<vector<int> > A(3, vector<int>(2));
+    A = { { 1, 0 }, { 0, 1 }, { 0, -1 }, };
+    vector<vector<int> > B(3, vector<int>(2));
+    B = { { 0, 0 }, { 1, 1 }, { 1, -1 }, };
 
     // Compute the minkowski sum of triangle A and B
     vector<vector<int> > C;

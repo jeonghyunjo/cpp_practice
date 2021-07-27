@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "playground", "playground\pl
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "minkowski", "minkowski\minkowski.vcxproj", "{83ECE4A5-6653-4876-B181-F8DDBA3CCFB6}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BFS", "BFS\BFS.vcxproj", "{ED97D663-C563-439D-BE5F-8D910E7AA530}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{83ECE4A5-6653-4876-B181-F8DDBA3CCFB6}.Release|x64.Build.0 = Release|x64
 		{83ECE4A5-6653-4876-B181-F8DDBA3CCFB6}.Release|x86.ActiveCfg = Release|Win32
 		{83ECE4A5-6653-4876-B181-F8DDBA3CCFB6}.Release|x86.Build.0 = Release|Win32
+		{ED97D663-C563-439D-BE5F-8D910E7AA530}.Debug|x64.ActiveCfg = Debug|x64
+		{ED97D663-C563-439D-BE5F-8D910E7AA530}.Debug|x64.Build.0 = Debug|x64
+		{ED97D663-C563-439D-BE5F-8D910E7AA530}.Debug|x86.ActiveCfg = Debug|Win32
+		{ED97D663-C563-439D-BE5F-8D910E7AA530}.Debug|x86.Build.0 = Debug|Win32
+		{ED97D663-C563-439D-BE5F-8D910E7AA530}.Release|x64.ActiveCfg = Release|x64
+		{ED97D663-C563-439D-BE5F-8D910E7AA530}.Release|x64.Build.0 = Release|x64
+		{ED97D663-C563-439D-BE5F-8D910E7AA530}.Release|x86.ActiveCfg = Release|Win32
+		{ED97D663-C563-439D-BE5F-8D910E7AA530}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

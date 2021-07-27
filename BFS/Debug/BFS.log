@@ -1,0 +1,5 @@
+﻿  main.cpp
+C:\Users\jeong\Documents\Github\cpp_practice\BFS\main.cpp(110,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\jeong\Documents\Github\cpp_practice\BFS\main.cpp(68,13): warning C4101: 'temp2': unreferenced local variable
+C:\Users\jeong\Documents\Github\cpp_practice\BFS\main.cpp(67,13): warning C4101: 'temp1': unreferenced local variable
+  BFS.vcxproj -> C:\Users\jeong\Documents\Github\cpp_practice\Debug\BFS.exe
